@@ -1,5 +1,19 @@
 # Audio_File_Server_Simulator_with_Flask_API
-### This Flask App simulates the behavior of an audio file server while using a MongoDB 
+### This Flask App simulates the behavior of an audio file server by integrating a MongoDB 
+The Audio files can be of three different  types:  SONG, PODCAST, AUDIOBOOK. 
+
+The program performs the following operations on an audiofiles by specifying its types
+- Creates audiofile  -> Endpoint: /api/<audiofile>
+- Updates audiofile  -> Endpoint: /api/<audiofile>/<id>
+- Delete audiofile   -> Endpoint: /api/<audiofile>/<id>
+- Read audiofile(s)  -> Endpoint: /api/<audiofile>/<id>  and  /api/<audiofile>/
+
+
+## File structure
+- Database : This directory holds the model definitions and the database configurations
+- Resources : This directory is responsible for the exception definitions, the routes configurations and the CRUD method definitions
+- Test : This directory holds test definitions for the programme
+
 
 ## Getting started   
 ### Installation
