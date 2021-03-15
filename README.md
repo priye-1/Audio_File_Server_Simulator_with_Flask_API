@@ -1,5 +1,5 @@
 # Audio_File_Server_Simulator_with_Flask_API
-### This Flask App simulates the behavior of an audio file server by integrating a MongoDB 
+### This Flask App simulates the behavior of an audio file server by integrating MongoDB  
 The Audio files can be of three different  types:  SONG, PODCAST, AUDIOBOOK. 
 
 The program performs the following operations on an audiofiles by specifying its types
