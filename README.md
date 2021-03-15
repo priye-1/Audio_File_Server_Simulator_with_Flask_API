@@ -3,10 +3,10 @@
 The Audio files can be of three different  types:  SONG, PODCAST, AUDIOBOOK. 
 
 The program performs the following operations on an audiofiles by specifying its types
-- Creates audiofile  -> Endpoint: /api//<audiofile>
-- Updates audiofile  -> Endpoint: /api//<audiofile>//<id>
-- Delete audiofile   -> Endpoint: /api//<audiofile>//<id>
-- Read audiofile(s)  -> Endpoint: /api//<audiofile>//<id>  and  /api//<audiofile>/
+- Creates audiofile  -> Endpoint: (/api/<audiofile>)
+- Updates audiofile  -> Endpoint: (/api/<audiofile>/<id>)
+- Delete audiofile   -> Endpoint: (/api/<audiofile>/<id>)
+- Read audiofile(s)  -> Endpoint: (/api/<audiofile>/<id>)  and  (/api/<audiofile>)
 
 
 ## File structure
